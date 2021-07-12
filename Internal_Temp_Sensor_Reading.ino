@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2021 Sayantan Sinha
+ *
+ * MIT License
+ */
+
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x3F, 16, 2);                      // Connect 16x2 LCD through I2C (address = 0x3F)
